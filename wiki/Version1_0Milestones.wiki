@@ -10,3 +10,5 @@ This document describes plans for the 1.0 release of the SlideShow Android compo
 
   # Add junit test coverage for all component classes (not necessarily example/demo).
   # Test on G1 device.
+  # Fix all bugs exposed in testing.
+  # Add/Extend interface(s) to listen for touch/key events on the slide itself.
