@@ -11,7 +11,7 @@ Running the demo is easy and provides a starting point for using, customizing, a
 = Details =
 
 To obtain and run the SlideShow example application do the following:
-  # Checkout the android-slideshow code from the project trunk at https://android-slideshow.googlecode.com/svn/trunk/
+  # Checkout [https://android-slideshow.googlecode.com/svn/ version 0.5 of the android-slideshow code].
   # Import the retrieved code into Eclipse via Import -> Existing Projects into Workspace
   # Build the project in Eclipse (alternatively you can use the provided pom.xml - see [])
   # Launch and run the project in your emulator.  If you don't know how to do this in Eclipse see http://code.google.com/android/intro/develop-and-debug.html.  For a complete overview see http://code.google.com/android/reference/emulator.html.
