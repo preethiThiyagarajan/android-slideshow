@@ -7,6 +7,4 @@ Using the SlideShow component in your project basically involves two steps:
   * Copy the src/ directory from the files you checked out to your project.
   * Delete the folder+files in src/com/freebeachler/android/demos/* (you don't need the SlideShow Example).
 
-[Version1_0Milestones Versioned JARs are coming soon].
-
 For details on running the example(s) in this project see [RunSlideShowExample].
