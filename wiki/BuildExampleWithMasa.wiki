@@ -14,13 +14,27 @@ The primary motivation for masa in this project is to deploy junit tests to the 
 
 = Instructions =
 
-To build the SlideShowExample project and deply it to the emulator using maven:
+== Install Masa and Put Android SDK 1.0 in Local Repo ==
+
+  * [http://code.google.com/p/masa/wiki/GettingStarted Install masa].
+  * Copy the Android SDK 1.0 jar to your local maven repo.
+{{{
+cp /path/to/android_sdk/android.jar /path/to/maven/local/maven/repo/android/android/1.0/android-1.0.jar
+}}}
+  * Make a folder in your local Maven repo for the SDK 1.0 android.jar.
+{{{
+mkdir -p /path/to/local/maven/repo/android/android/1.0
+}}}
+
+== Build Using Maven ==
+To build the SlideShowExample project and deploy it to the emulator using maven:
   # Remove R.java from the project in the package com.freebeachler.android.component.slideshow.example.  As of this writing it will cause a conflict because maven is building R.java in target/generated-sources which is causing a conflict with Eclipse's default build settings.  Be sure to disable "Build Automatically" for your project/workspace in Eclipse if you plan on using maven as the primary build tool.
   # Open a terminal or command prompt.
   # cd /path/to/your/slideshow/example/project (where the project's AndroidManifest.xml lives)
   # Build the project using maven.
+  # Install the resulting apk on a running emulator.
 
-For example, type:
+A quick way to perform the last step is to enter the following in a terminal:
 {{{
 mvn install -Dmasa.debug
 }}}
