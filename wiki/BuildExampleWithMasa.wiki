@@ -1,0 +1,11 @@
+#summary Build the SlideShow example using Masa
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+Masa (http://code.google.com/p/masa) is a maven plugin that enables maven builds of android projects.  The SlideShow example in this project comes with a pom.xml that requires the installation of masa to successfully build in maven.
+
+
+= Details =
+
+The primary motivation for masa in this project is to deploy junit tests to the emulator.  Unfortunately, this isn't currently exposed in the pom - but realizing this goal is next on the project roadmap.  It suffices to say the 0.5 release has gone through sufficient manual testing for general use.
