@@ -3,9 +3,10 @@
 
 = Details =
 Using the SlideShow component in your project basically involves two steps:
-  # Checkout the SlideShow component from the trunk of this project.  See http://code.google.com/p/android-slideshow/source/checkout for more.
-  # Copy the files you checked out to your project.
+  * Checkout the SlideShow component from the 0.5 stable release of this project at https://android-slideshow.googlecode.com/svn/branches/releases/stable/0.5/.  See http://code.google.com/p/android-slideshow/source/checkout for more about checking out files from this project.
+  * Copy the src/ directory from the files you checked out to your project.
+  * Delete the folder+files in src/com/freebeachler/android/component/slideshow/example (you don't need the SlideShow Example).
 
-A versioned JAR will be coming soon.
+Versioned JARs for component and example are coming soon.
 
-For details on running the example(s) in this project see 
+For details on running the example(s) in this project see [RunSlideShowExample].
