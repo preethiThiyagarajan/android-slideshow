@@ -1,0 +1,12 @@
+#summary SlideShow Android Component Version 1.0 Milestones
+#labels Phase-Requirements
+
+= Introduction =
+
+This document describes plans for the 1.0 release of the SlideShow Android component.
+
+
+= Details =
+
+  # Add junit test coverage for all component classes (not necessarily example/demo).
+  # Test on G1 device.
