@@ -9,3 +9,14 @@ Masa (http://code.google.com/p/masa) is a maven plugin that enables maven builds
 = Details =
 
 The primary motivation for masa in this project is to deploy junit tests to the emulator.  Unfortunately, this isn't currently exposed in the pom - but realizing this goal is next on the project roadmap.  It suffices to say the 0.5 release has gone through sufficient manual testing for general use.
+
+= Instructions =
+
+To build the SlideShowExample project and deply it to the emulator using masa:
+  # Remove R.java from the project in the package com.freebeachler.android.component.slideshow.example.  It comes with the svn checkout and usually built automatically by Eclipse.
+  # Build the project using masa.
+
+For example, type:
+{{{
+mvn install -Dmasa.debug
+}}}
