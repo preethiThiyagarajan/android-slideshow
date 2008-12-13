@@ -36,7 +36,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.TranslateAnimation;
 
-import com.freebeachler.android.component.slideshow.example.R;
+import com.freebeachler.android.demos.component.slideshow.R;
 
 /**
  * Cutom SlideShow component.
