@@ -14,7 +14,7 @@ The primary motivation for masa in this project is to deploy junit tests to the 
 
 = Instructions =
 
-== Install Masa and Put Android SDK 1.0 in Local Repo ==
+== Install Masa and Put Android SDK 1.0 in Local Repository ==
 
   * [http://code.google.com/p/masa/wiki/GettingStarted Install masa].
   * Copy the Android SDK 1.0 jar to your local maven repo.
