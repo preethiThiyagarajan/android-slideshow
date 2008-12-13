@@ -18,7 +18,7 @@
  * along with SlideShow.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.freebeachler.android.component.slideshow.example;
+package com.freebeachler.android.demos.component.slideshow;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -32,7 +32,6 @@ import android.view.animation.Animation;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.freebeachler.android.component.slideshow.example.R;
 import com.freebeachler.android.component.slideshow.DrawableSlide;
 import com.freebeachler.android.component.slideshow.SlideShow;
 
