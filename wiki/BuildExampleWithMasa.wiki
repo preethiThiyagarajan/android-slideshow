@@ -1,20 +1,24 @@
-#summary Build the SlideShow example using Masa
+#summary Build the SlideShow example using Maven with the Masa plugin
 #labels Featured,Phase-Deploy
 
 = Introduction =
 
-Masa (http://code.google.com/p/masa) is a maven plugin that enables maven builds of android projects.  The SlideShow example in this project comes with a pom.xml that requires the installation of masa to successfully build in maven.
+Masa (http://code.google.com/p/masa) is a set of [http://maven.apache.org/ Maven] plugins that enable maven builds of android projects.
 
 
 = Details =
+
+The SlideShow example in this project comes with a pom.xml that requires the installation of masa to successfully build in maven.  For more information about setting up masa see http://code.google.com/p/masa/wiki/GettingStarted.
 
 The primary motivation for masa in this project is to deploy junit tests to the emulator.  Unfortunately, this isn't currently exposed in the pom - but realizing this goal is next on the project roadmap.  It suffices to say the 0.5 release has gone through sufficient manual testing for general use.
 
 = Instructions =
 
-To build the SlideShowExample project and deply it to the emulator using masa:
-  # Remove R.java from the project in the package com.freebeachler.android.component.slideshow.example.  It comes with the svn checkout and usually built automatically by Eclipse.
-  # Build the project using masa.
+To build the SlideShowExample project and deply it to the emulator using maven:
+  # Remove R.java from the project in the package com.freebeachler.android.component.slideshow.example.  As of this writing it will cause a conflict because the default pom we're using builds its own R.java and doesn't know how to overwrite an existing one.  This will be changed soon.  R.java comes with the svn checkout and usually gets built automatically by Eclipse.
+  # Open a terminal/command prompt.
+  # cd /path/to/your/slideshow/example/project (where the project's AndroidManifest.xml lives)
+  # Build the project using maven.
 
 For example, type:
 {{{
