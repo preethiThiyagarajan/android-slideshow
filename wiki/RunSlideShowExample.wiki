@@ -19,6 +19,8 @@ The easiest way to load the SlideShow example on your emulator is download and i
 adb install /path/to/apk/SlideShowExample-0.5.apk
 }}}
 
+A quick tutorial that covers everything from SDK setup to APK deployment can be found at http://www.androidfreeware.org/tutorials/how-to-install-apk-files-on-android-device-emulator.
+
 ==Building From Code==
 
 To build and run the SlideShow example application do the following:
