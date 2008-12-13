@@ -15,8 +15,8 @@ The primary motivation for masa in this project is to deploy junit tests to the 
 = Instructions =
 
 To build the SlideShowExample project and deply it to the emulator using maven:
-  # Remove R.java from the project in the package com.freebeachler.android.component.slideshow.example.  As of this writing it will cause a conflict because the default pom we're using builds its own R.java and doesn't know how to overwrite an existing one.  This will be changed soon.  R.java comes with the svn checkout and usually gets built automatically by Eclipse.
-  # Open a terminal/command prompt.
+  # Remove R.java from the project in the package com.freebeachler.android.component.slideshow.example.  As of this writing it will cause a conflict because maven is building R.java in target/generated-sources which is causing a conflict with Eclipse's default build settings.  Be sure to disable "Build Automatically" for your project/workspace in Eclipse if you plan on using maven as the primary build tool.
+  # Open a terminal or command prompt.
   # cd /path/to/your/slideshow/example/project (where the project's AndroidManifest.xml lives)
   # Build the project using maven.
 
