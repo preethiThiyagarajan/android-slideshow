@@ -1,5 +1,5 @@
 #summary Get started using the Android SlideShow component in your project.
-#labels Featured
+#labels Featured,Phase-Deploy
 
 = Details =
 Using the SlideShow component in your project basically involves two steps:
