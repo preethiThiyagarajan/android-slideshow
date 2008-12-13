@@ -10,7 +10,7 @@ Running the demo is easy and provides a starting point for using, customizing, a
 
 = Details =
 
-==The SlideShowExample 0.5 APK==
+==The Example APK==
 The easiest way to load the SlideShow example on your emulator is download and install the apk:
   # Download SlideShowExample-0.5.apk from the downloads section of this project.
   # Start your emulator.
