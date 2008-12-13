@@ -10,6 +10,17 @@ Running the demo is easy and provides a starting point for using, customizing, a
 
 = Details =
 
+==The SlideShowExample 0.5 APK==
+The easiest way to load the SlideShow example on your emulator is download and install the apk:
+  # Download SlideShowExample-0.5.apk from the downloads section of this project.
+  # Start your emulator.
+  # Open a terminal/command prompt and type the following command:
+{{{
+adb install /path/to/apk/SlideShowExample-0.5.apk
+}}}
+
+==Building From Code==
+
 To obtain and run the SlideShow example application do the following:
   # Checkout [https://android-slideshow.googlecode.com/svn/ version 0.5 of the android-slideshow code].
   # Import the retrieved code into Eclipse via Import -> Existing Projects into Workspace
