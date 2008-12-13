@@ -21,7 +21,7 @@ adb install /path/to/apk/SlideShowExample-0.5.apk
 
 ==Building From Code==
 
-To obtain and run the SlideShow example application do the following:
+To build and run the SlideShow example application do the following:
   # Checkout [https://android-slideshow.googlecode.com/svn/ version 0.5 of the android-slideshow code].
   # Import the retrieved code into Eclipse via Import -> Existing Projects into Workspace
   # Build the project in Eclipse (alternatively you can use the provided pom.xml - see [])
