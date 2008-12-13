@@ -10,7 +10,7 @@ Masa (http://code.google.com/p/masa) is a set of [http://maven.apache.org/ Maven
 
 The SlideShow example in this project comes with a pom.xml that requires the installation of masa to successfully build in maven.  For more information about setting up masa see http://code.google.com/p/masa/wiki/GettingStarted.
 
-The primary motivation for masa in this project is to deploy junit tests to the emulator.  Unfortunately, this isn't currently exposed in the pom - but realizing this goal is next on the project roadmap.  It suffices to say the 0.5 release has gone through sufficient manual testing for general use.
+The primary motivation for masa in this project is to deploy junit tests to the emulator.  Unfortunately, this isn't currently exposed in the pom - but realizing this goal is [http://code.google.com/p/android-slideshow/wiki/Version1_0Milestones next on the project roadmap].  It suffices to say the 0.5 release has gone through sufficient manual testing for general use.
 
 = Instructions =
 
