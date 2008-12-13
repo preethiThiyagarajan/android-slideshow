@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/res/com.freebeachler.android.component.slideshow.example"
+    xmlns:custom="http://schemas.android.com/apk/res/com.freebeachler.android.demos.component.slideshow"
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
 	<TextView android:layout_width="fill_parent"
@@ -17,7 +17,7 @@
 		<ImageButton android:id="@+id/butt_slide_main_prev"
 			android:layout_height="150sp" android:layout_width="30sp"
 			android:src="@drawable/arrow_left" />
-		<com.freebeachler.android.component.slideshow.SlideShow
+		<com.freebeachler.android.demos.component.slideshow.SlideShow
 			android:layout_width="180sp"
             android:layout_height="150sp"
 			android:id="@+id/slide_show"
