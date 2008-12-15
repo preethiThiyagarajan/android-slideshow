@@ -2,7 +2,7 @@
 #labels Featured,Phase-Deploy
 
 = Details =
-Unfortunately, due to [http://groups.google.com/group/android-developers/browse_thread/thread/3b252322deabc9d7?hl=en limitations of the 1.0 SDK] it is not possible to distribute this component as a JAR.  You will have to follow some manual steps to get it installed:
+Unfortunately, due to [http://groups.google.com/group/android-developers/browse_thread/thread/3b252322deabc9d7?hl=en limitations of the 1.0 SDK] it is not possible to distribute this component as a JAR.  You must follow these manual steps to get it installed:
   # Checkout the SlideShow component anonymously from the [http://android-slideshow.googlecode.com/svn/branches/releases/stable/0.5/ 0.5 stable release of this project].  See http://code.google.com/p/android-slideshow/source/checkout for more about checking out files from this project.
   # Copy the src/ directory from the files you checked out to your project.
   # Delete the folder+files in src/com/freebeachler/android/demos/* *(you don't need the SlideShow Example)*.
