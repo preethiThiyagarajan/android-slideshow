@@ -6,6 +6,7 @@ Unfortunately, due to [http://groups.google.com/group/android-developers/browse_
   # Checkout the SlideShow component anonymously from the [http://android-slideshow.googlecode.com/svn/branches/releases/stable/0.5/ 0.5 stable release of this project].  See http://code.google.com/p/android-slideshow/source/checkout for more about checking out files from this project.
   # Copy the src/ directory from the files you checked out to your project.
   # Delete the folder+files in src/com/freebeachler/android/demos/* *(you don't need the SlideShow Example)*.
-  # Add an attribute in res/values/attrs.xml (or wherever your styleable resources are defined).  A tutorial on using custom attributes can be found at http://blog.pocketjourney.com/2008/05/02/android-tutorial-42-passing-custom-variables-via-xml-resource-files/.
+  # [optional] Add an attribute in res/values/attrs.xml (or wherever your styleable resources are defined).  You only need to do this if you want to tweak the slideshow in your xml layout files.  Alternatively, you can tweak the slideshow in code.  A tutorial on using custom XML attributes can be found at http://blog.pocketjourney.com/2008/05/02/android-tutorial-42-passing-custom-variables-via-xml-resource-files/.
 
+= Demo =
 For details on running the example(s) in this project see [RunSlideShowExample].
