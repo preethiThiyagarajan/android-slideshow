@@ -17,7 +17,7 @@
 		<ImageButton android:id="@+id/butt_slide_main_prev"
 			android:layout_height="150sp" android:layout_width="30sp"
 			android:src="@drawable/arrow_left" />
-		<com.freebeachler.android.demos.component.slideshow.SlideShow
+		<com.freebeachler.android.component.slideshow.SlideShow
 			android:layout_width="180sp"
             android:layout_height="150sp"
 			android:id="@+id/slide_show"
