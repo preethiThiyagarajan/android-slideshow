@@ -2,11 +2,16 @@
 #labels Featured,Phase-Deploy
 
 = Details =
-Unfortunately, due to [http://groups.google.com/group/android-developers/browse_thread/thread/3b252322deabc9d7?hl=en limitations of the 1.0 SDK] it is not possible to distribute this component as a JAR.  You must follow these manual steps to get it installed:
-  # Checkout the SlideShow component anonymously from the [http://android-slideshow.googlecode.com/svn/branches/releases/stable/0.5/ 0.5 stable release of this project].  See http://code.google.com/p/android-slideshow/source/checkout for more about checking out files from this project.
-  # Copy the src/ directory from the files you checked out to your project.
-  # Delete the folder+files in src/com/freebeachler/android/demos/* *(you don't need the SlideShow Example)*.
-  # [optional] Add an attribute in res/values/attrs.xml (or wherever your styleable resources are defined).  You only need to do this if you want to tweak the slideshow in your xml layout files.  Alternatively, you can tweak the slideshow in code.  A tutorial on using custom XML attributes can be found at http://blog.pocketjourney.com/2008/05/02/android-tutorial-42-passing-custom-variables-via-xml-resource-files/.
+Unfortunately, due to [http://groups.google.com/group/android-developers/browse_thread/thread/3b252322deabc9d7?hl=en the component's usage of XML attributes and limitation of the 1.0 SDK] it isn't currently possible to distribute this component as a JAR.  _The XML attributes are to be removed soon until the SDK support is enhanced_.
+
+For now you must follow these manual steps to get it installed:
+  # Checkout the SlideShow component anonymously from the [http://android-slideshow.googlecode.com/svn/branches/releases/stable/0.6/android-slideshow 0.6 stable release of this project].  See http://code.google.com/p/android-slideshow/source/checkout for more about checking out files from this project.
+    # Either check out the code directly into your project - or -
+    # Copy the src/ directory from the files you checked out to your project.
+  # Satisfy dependency on custom attribute in R.java (Android resources package).  Typically this means:
+    # Add the "startIndex" attribute to your attrs.xml.
+    # Build R.java (via Eclipse or Maven)
+    # Re-import R.java into SlideShow.java.
 
 = Demo =
 For details on running the example(s) in this project see [RunSlideShowExample].
