@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.freebeachler.android.demos.component.slideshow"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/header"
+		android:layout_marginBottom="12sp"
+        android:layout_marginLeft="12sp"
+		android:textColor="#c3c3c3"
+		android:textSize="20sp" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/content_wrap_slideshow" android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:padding="2sp"
+		android:layout_gravity="center">
+		<ImageButton android:id="@+id/butt_slide_main_prev"
+			android:layout_height="150sp" android:layout_width="30sp"
+			android:src="@drawable/arrow_left" />
+		<com.freebeachler.android.component.slideshow.SlideShow
+			android:layout_width="180sp"
+            android:layout_height="150sp"
+			android:id="@+id/slide_show"
+			custom:startIndex="2" />
+        <ImageButton android:id="@+id/butt_slide_main_next"
+            android:layout_height="150sp" android:layout_width="30sp"
+            android:src="@drawable/arrow_right" />
+	</LinearLayout>
+</LinearLayout>
