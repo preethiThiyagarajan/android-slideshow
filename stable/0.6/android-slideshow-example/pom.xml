@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
     <groupId>com.freebeachler.android.slideshow</groupId>
-	<version>1.0_beta</version>
+	<version>0.6</version>
     <artifactId>slide-show-example</artifactId>
 	<packaging>android:apk</packaging>
-    <name>SlideShowExample</name>
+    <name>android-slideshow-example</name>
 	<licenses>
 		<license>
 			<name>GNU General Public License v3</name>
