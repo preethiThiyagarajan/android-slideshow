@@ -36,7 +36,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.TranslateAnimation;
 
-import com.freebeachler.android.demos.component.slideshow.R;
+import com.freebeachler.android.component.slideshow.R;
 
 /**
  * Cutom SlideShow component.
@@ -106,7 +106,6 @@ public class SlideShow extends View {
         /* (non-Javadoc)
          * @see android.view.animation.Animation.AnimationListener#onAnimationEnd(android.view.animation.Animation)
          */
-        @Override
         public void onAnimationEnd(Animation animation) {
             if (slideShowAnimationListener != null) {
                 slideShowAnimationListener.onSlideAnimationEnd(animation);
@@ -116,7 +115,6 @@ public class SlideShow extends View {
         /* (non-Javadoc)
          * @see android.view.animation.Animation.AnimationListener#onAnimationRepeat(android.view.animation.Animation)
          */
-        @Override
         public void onAnimationRepeat(Animation animation) {
             if (slideShowAnimationListener != null) {
                 slideShowAnimationListener.onSlideAnimationRepeat(animation);
@@ -126,7 +124,6 @@ public class SlideShow extends View {
         /* (non-Javadoc)
          * @see android.view.animation.Animation.AnimationListener#onAnimationStart(android.view.animation.Animation)
          */
-        @Override
         public void onAnimationStart(Animation animation) {
             if (slideShowAnimationListener != null) {
                 slideShowAnimationListener.onSlideAnimationStart(animation);

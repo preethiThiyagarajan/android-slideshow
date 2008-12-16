@@ -33,6 +33,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.freebeachler.android.component.slideshow.DrawableSlide;
+import com.freebeachler.android.component.slideshow.R;
 import com.freebeachler.android.component.slideshow.SlideShow;
 
 /**

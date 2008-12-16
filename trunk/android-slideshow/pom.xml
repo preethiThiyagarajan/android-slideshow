@@ -2,11 +2,11 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.jvending.masa</groupId>
-	<artifactId>SlideShowExample</artifactId>
-	<version>0.5_beta</version>
-	<packaging>android:apk</packaging>
-	<name>slide-show-example</name>
+    <groupId>com.freebeachler.android.slideshow</groupId>
+	<version>1.0_beta</version>
+    <artifactId>slide-show</artifactId>
+	<packaging>jar</packaging>
+    <name>SlideShow</name>
 	<licenses>
 		<license>
 			<name>GNU General Public License v3</name>
@@ -29,24 +29,19 @@
 		<dependency>
 			<groupId>android</groupId>
 			<artifactId>android</artifactId>
-			<version>0.9_beta</version>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>src/com/freebeachler/android/component/slideshow</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.jvending.masa.plugins</groupId>
-				<artifactId>maven-dx-plugin</artifactId>
-				<extensions>true</extensions>
 			</plugin>
 		</plugins>
 	</build>
