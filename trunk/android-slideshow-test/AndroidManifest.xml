@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.freebeachler.android.test.component.slideshow" android:versionCode="1"
+    android:versionName="1.0.0">
+	<application>
+		<uses-library android:name="android.test.runner" />
+	</application>
+	<uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+	<!--
+		This declares that this app uses the instrumentation test runner
+		targeting the package of com.freebeachler.android.component. To run
+		the tests use the command: "adb shell am instrument -w
+		com.freebeachler.android.component/android.test.InstrumentationTestRunner"
+	-->
+	<instrumentation android:name="android.test.InstrumentationTestRunner"
+		android:targetPackage="com.freebeachler.android"
+		android:label="Tests for SlideShow Component" />
+</manifest>

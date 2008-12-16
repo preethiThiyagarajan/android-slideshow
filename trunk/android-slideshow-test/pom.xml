@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.freebeachler.android.slideshow</groupId>
+    <version>1.0_beta</version>
+    <artifactId>slide-show-example-test</artifactId>
+    <packaging>android:apk:platformTest</packaging>
+    <name>SlideShowTest</name>
+    <licenses>
+        <license>
+            <name>GNU General Public License v3</name>
+            <url>http://www.gnu.org/licenses/</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>free</id>
+            <name>Free Beachler</name>
+            <email>fbeachler@gmail.com</email>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <description>Maven Plugin for Android DX</description>
+    <dependencies>
+        <dependency>
+		    <groupId>com.freebeachler.android.slideshow</groupId>
+            <artifactId>slide-show-example</artifactId>
+            <version>1.0_beta</version>
+        </dependency>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <sourceDirectory>src/com/freebeachler/android/test</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jvending.masa.plugins</groupId>
+                <artifactId>maven-aapt-plugin</artifactId>
+                <configuration>
+                    <androidManifestFile>src/com/freebeachler/android/test/compoment/slideshow/AndroidManifest.xml</androidManifestFile>
+                    <androidVersion>1.0</androidVersion>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jvending.masa.plugins</groupId>
+                <artifactId>maven-dx-plugin</artifactId>
+                <extensions>true</extensions>
+            </plugin>
+			<plugin>
+			    <groupId>org.jvending.masa.plugins</groupId>
+			    <artifactId>maven-platformtest-plugin</artifactId>
+			    <configuration>
+			        <testRunnerName>android.test.InstrumentationTestRunner</testRunnerName>
+			        <package>com.freebeachler.android.tests</package>
+			    </configuration>
+			</plugin>
+        </plugins>
+    </build>
+</project>
