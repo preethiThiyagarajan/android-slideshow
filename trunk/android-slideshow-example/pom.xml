@@ -33,7 +33,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<sourceDirectory>src/com/freebeachler/android/component/slideshow</sourceDirectory>
+		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
